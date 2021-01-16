@@ -1,0 +1,33 @@
+
+body {
+    font-family: Montserrat;
+  }
+
+  .o-container {
+    margin: 0 auto;
+    width: calc(100% - 80px)
+  }
+
+  .o-container--vertical {
+    margin: 64px 0;
+  }
+
+  .o-flex {
+    display: flex;
+  }
+
+  .o-form-group {
+    label {
+      display: block;
+      padding: 8px 0;
+    }
+
+    .c-input {
+      height: 36px;
+      min-width: 200px;
+    }
+
+    + .o-form-group {
+      margin-left: 24px;
+    }
+  }
